@@ -1,0 +1,26 @@
+name: medichatbot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - jupyterlab
+  - ipywidgets
+  - pip:
+    - langchain-chroma>=0.1.2
+    - langchain-openai>=0.1.0
+    - chromadb>=0.4.24
+    - transformers>=4.40.0
+    - datasets>=2.18.0
+    - sentencepiece>=0.2.0
+    - accelerate>=0.29.2
+    - bitsandbytes>=0.43.0
+    - python-dotenv>=1.0.0
+    - pandas>=2.0.3
+    - huggingface-hub>=0.21.4
+    - openai
+    - fastapi[standard]
+    - uvicorn
+    - pydantic
