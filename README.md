@@ -51,7 +51,7 @@ PERSIST_DIR=./chroma_db
 4️⃣ Build the **ChromaDB Vector Store**:
 
 ```sh
-$ python build_chroma_db.py
+$ python create_db.py
 ```
 
 *Note: Running `build_chroma_db.py` requires a dedicated GPU. If you do not have one, you can try out the medical chatbot using the pre-processed `chroma_db` file (though it is only processed with partial dataset).*
